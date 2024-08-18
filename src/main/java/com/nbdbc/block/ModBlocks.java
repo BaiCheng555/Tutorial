@@ -15,6 +15,7 @@ public class ModBlocks {
     public static final Block POMEGRANATE_ORE = register("pomegranate_ore", new ExperienceDroppingBlock(UniformIntProvider.create(3,7),AbstractBlock.Settings.create().requiresTool().strength(4.0f, 4.0f)));
     public static final Block POMEGRANATE_BLOCK = register("pomegranate_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(4.0f, 4.0f)));
 
+    @SuppressWarnings("CastCanBeRemovedNarrowingVariableType")
     public static void registerBlockItems(String id, Block block) {
         Item item = Registry.register(Registries.ITEM, Identifier.of(Tutorial.MOD_ID, id), new BlockItem(block, new Item.Settings()));
         if (item instanceof BlockItem) {
@@ -28,6 +29,6 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        Tutorial.LOGGER.info("Registering Blocks!");
+        Tutorial.LOGGER.info("Registering Blocks");
     }
 }
