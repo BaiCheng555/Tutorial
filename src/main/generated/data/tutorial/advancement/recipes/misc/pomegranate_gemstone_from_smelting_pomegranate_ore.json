@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pomegranate_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorial:pomegranate_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:pomegranate_gemstone_from_smelting_pomegranate_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pomegranate_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:pomegranate_gemstone_from_smelting_pomegranate_ore"
+    ]
+  }
+}

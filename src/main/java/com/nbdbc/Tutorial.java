@@ -20,6 +20,7 @@ public class Tutorial implements ModInitializer {
 		ModItemGroups.registerModItemGroups();
 		ModBlocks.registerModBlocks();
 
+		//mixin
 		FuelRegistry.INSTANCE.add(ModItems.CUSTOM_ITEM, 300);
 	}
 }

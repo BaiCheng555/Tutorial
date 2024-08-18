@@ -14,7 +14,7 @@ import java.util.concurrent.CompletableFuture;
 
 public class ModRecipesProvider extends FabricRecipeProvider {
 
-    private static final List<ItemConvertible> A = List.of(ModItems.CUSTOM_ITEM);
+    private static final List<ItemConvertible> A = List.of(ModItems.CUSTOM_ITEM,ModBlocks.POMEGRANATE_ORE);
 
     public ModRecipesProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
