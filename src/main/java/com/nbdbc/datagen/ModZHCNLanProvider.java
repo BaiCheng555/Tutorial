@@ -19,6 +19,7 @@ public class ModZHCNLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.CUSTOM_ITEM,"自定义物品");
         translationBuilder.add(ModItems.Pomegranate_Gemstone,"紫榴宝石");
         translationBuilder.add(ModItems.Pomegranate_PICKAXE,"紫榴镐");
+        translationBuilder.add(ModItems.Custom_Food,"自定义食物");
 
         translationBuilder.add(ModBlocks.POMEGRANATE_ORE,"紫榴矿");
         translationBuilder.add(ModBlocks.POMEGRANATE_BLOCK,"紫榴块");

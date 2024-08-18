@@ -15,7 +15,8 @@ public class ModItems {
 
     public static final Item CUSTOM_ITEM = registerItem("custom_item",new Item(new Item.Settings()));
     public static final Item Pomegranate_Gemstone = registerItem("pomegranate_gemstone",new Item(new Item.Settings()));
-    public static final Item Pomegranate_PICKAXE= registerItem("pomegranate_pickaxe",new Item(new Item.Settings()));
+    public static final Item Pomegranate_PICKAXE = registerItem("pomegranate_pickaxe",new Item(new Item.Settings()));
+    public static final Item Custom_Food = registerItem("custom_food",new Item(new Item.Settings().food(ModFoodComponents.Custom_Food)));
 
 
     private static Item registerItem(String id,Item item){

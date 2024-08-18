@@ -20,6 +20,7 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.CUSTOM_ITEM,"custom_item");
         translationBuilder.add(ModItems.Pomegranate_Gemstone,"pomegranate_gemstone");
         translationBuilder.add(ModItems.Pomegranate_PICKAXE,"pomegranate_pickaxe");
+        translationBuilder.add(ModItems.Custom_Food,"custom_food");
 
         translationBuilder.add(ModBlocks.POMEGRANATE_ORE,"pomegranate_ore");
         translationBuilder.add(ModBlocks.POMEGRANATE_BLOCK,"pomegranate_block");

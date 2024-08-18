@@ -25,5 +25,6 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.Pomegranate_Gemstone, Models.GENERATED);
         itemModelGenerator.register(ModItems.Pomegranate_PICKAXE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CUSTOM_ITEM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.Custom_Food, Models.GENERATED);
     }
 }

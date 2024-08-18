@@ -21,6 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CUSTOM_ITEM);
                         entries.add(ModItems.Pomegranate_Gemstone);
                         entries.add(ModItems.Pomegranate_PICKAXE);
+                        entries.add(ModItems.Custom_Food);
 
                         entries.add(ModBlocks.POMEGRANATE_ORE);
                         entries.add(ModBlocks.POMEGRANATE_BLOCK);
