@@ -1,0 +1,8 @@
+{
+  "block.tutorial.pomegranate_block": "pomegranate_block",
+  "block.tutorial.pomegranate_ore": "pomegranate_ore",
+  "item.tutorial.custom_item": "custom_item",
+  "item.tutorial.pomegranate_gemstone": "pomegranate_gemstone",
+  "item.tutorial.pomegranate_pickaxe": "pomegranate_pickaxe",
+  "itemGroup.tutorial.custom_group": "custom_group"
+}

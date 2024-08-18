@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "pomegranate_gemstone",
+  "ingredient": {
+    "item": "tutorial:custom_item"
+  },
+  "result": {
+    "id": "tutorial:pomegranate_gemstone"
+  }
+}

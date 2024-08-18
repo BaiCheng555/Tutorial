@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pomegranate_gemstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorial:pomegranate_gemstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:pomegranate_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pomegranate_gemstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:pomegranate_block"
+    ]
+  }
+}
