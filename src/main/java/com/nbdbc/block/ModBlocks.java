@@ -1,8 +1,6 @@
 package com.nbdbc.block;
 
 import com.nbdbc.Tutorial;
-import net.fabricmc.fabric.api.block.v1.FabricBlock;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -12,7 +10,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
-import net.minecraft.world.gen.surfacebuilder.MaterialRules;
 
 public class ModBlocks {
     public static final Block POMEGRANATE_ORE = register("pomegranate_ore", new ExperienceDroppingBlock(UniformIntProvider.create(3,7),AbstractBlock.Settings.create().requiresTool().strength(4.0f, 4.0f)));
