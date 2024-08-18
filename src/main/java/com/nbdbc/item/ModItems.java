@@ -21,6 +21,6 @@ public class ModItems {
     }
 
     public static void registerModItem(){
-        Tutorial.LOGGER.info("Registering Item！");
+        Tutorial.LOGGER.info("Registering Item");
     }
 }
