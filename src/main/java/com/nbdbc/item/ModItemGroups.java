@@ -27,6 +27,6 @@ public class ModItemGroups {
                     }).build());
     // 初始化方法
     public static void registerModItemGroups() {
-        Tutorial.LOGGER.info("Registering Item Groups！");
+        Tutorial.LOGGER.info("Registering Item Groups");
     }
 }
