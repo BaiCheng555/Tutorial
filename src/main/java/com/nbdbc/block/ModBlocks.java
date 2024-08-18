@@ -31,6 +31,6 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        Tutorial.LOGGER.info("Registering Blocks");
+        Tutorial.LOGGER.info("Registering Blocks!");
     }
 }
