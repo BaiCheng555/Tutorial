@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
 
-    // 利用返回值为ItemGroup，直接使用static final变量进行注册
+    @SuppressWarnings("unused")
     public static final ItemGroup CUSTOM_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(Tutorial.MOD_ID, "custom_group"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.tutorial.custom_group"))
                     .icon(() -> new ItemStack(ModItems.Pomegranate_Gemstone))
@@ -25,8 +25,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POMEGRANATE_ORE);
                         entries.add(ModBlocks.POMEGRANATE_BLOCK);
                     }).build());
-    // 初始化方法
+
     public static void registerModItemGroups() {
-        Tutorial.LOGGER.info("Registering Item Groups");
+        Tutorial.LOGGER.info("Registering Item Groups！");
     }
 }
