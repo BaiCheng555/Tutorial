@@ -4,6 +4,7 @@ import com.nbdbc.block.ModBlocks;
 import com.nbdbc.item.ModItemGroups;
 import com.nbdbc.item.ModItems;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,5 +19,7 @@ public class Tutorial implements ModInitializer {
 		ModItems.registerModItem();
 		ModItemGroups.registerModItemGroups();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.CUSTOM_ITEM, 300);
 	}
 }
