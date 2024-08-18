@@ -1,7 +1,6 @@
 package com.nbdbc.datagen;
 
 import com.nbdbc.block.ModBlocks;
-import com.nbdbc.item.ModItemGroups;
 import com.nbdbc.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
