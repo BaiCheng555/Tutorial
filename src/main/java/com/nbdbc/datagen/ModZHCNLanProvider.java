@@ -17,11 +17,11 @@ public class ModZHCNLanProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup wrapperLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add(ModItems.CUSTOM_ITEM,"自定义物品");
-        translationBuilder.add(ModItems.Pomegranate_Gemstone,"紫榴宝石");
+        translationBuilder.add(ModItems.Pomegranate_Gemstone,"紫色心情");
         translationBuilder.add(ModItems.Pomegranate_PICKAXE,"紫榴镐");
         translationBuilder.add(ModItems.Custom_Food,"自定义食物");
 
-        translationBuilder.add(ModBlocks.POMEGRANATE_ORE,"紫榴矿");
+        translationBuilder.add(ModBlocks.POMEGRANATE_ORE,"紫色心情矿");
         translationBuilder.add(ModBlocks.POMEGRANATE_BLOCK,"紫榴块");
 
         translationBuilder.add("itemGroup.tutorial.custom_group","自定义组");
